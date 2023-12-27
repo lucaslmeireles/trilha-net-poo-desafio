@@ -8,9 +8,9 @@ namespace DesafioPOO.Models
         }
 
         // TODO: Sobrescrever o método "InstalarAplicativo"
-        public static void InstalarAplicativo()
+        public override void InstalarAplicativo(string nomeApp)
         {
-            Console.WriteLine("Instalando pela Google Store");
+            Console.WriteLine($"Baixando {nomeApp} pela Google Store");
         }
     }
 }
